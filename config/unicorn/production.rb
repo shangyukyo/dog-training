@@ -15,7 +15,7 @@ preload_app true   # Preload our app for more speed
 timeout 180
 
 # 可同时监听 Unix 本地 socket 或 TCP 端口
-listen 9004, :tcp_nopush => true
+listen 8082, :tcp_nopush => true
 listen "/tmp/unicorn.#{application}.sock", :backlog => 64
 
 # Fill path to your app

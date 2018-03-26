@@ -128,6 +128,7 @@ body {
 	min-width:748px;
 }
 
+
 * {
 	outline:none;
 }
@@ -450,7 +451,7 @@ q {
  *******************************************/
 
 .header-wrapper {
-	position:relative;
+	position:relative;	
 }
 
 .header-top {
@@ -469,6 +470,7 @@ q {
 	float:left;
 	margin-top:.8em; 
 	margin-bottom:.8em;
+	width: 100%;
 }
 
 .header-wpml-selector {

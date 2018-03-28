@@ -1,6 +1,8 @@
-h3 {
+
+h2, h3, h4 {
 	font-weight: bold;
-}
+}	
+
 
 div.wpcf7 {
 	margin: 0;
